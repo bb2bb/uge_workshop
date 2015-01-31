@@ -1,0 +1,43 @@
+Git:
+- git init
+    don't do this in home folder
+    used to initialize git
+- git status : used to track what is in the box
+    initially shows untracked files
+      git st (short for status)
+- git add filename  :  add a file to get
+    check status again (git status) - status will show new files in the box
+      not perm until comited
+- get commit -m 'add git notes'
+      git ci  (short for commit)
+    Contained in the commit:
+      message (note about the commit)
+      id number
+      date and time
+      dif (changes in the file for this change)
+      author:  user name and email
+   x reg x when staging area is full or changes
+   greee check when staging area is empty
+      NOte:  good to use add vs added or adding in notes (present tense)
+- git log
+      git ll (short version)
+      git la (long version)
+      git ls -la ??
+- git notes :  command to annotate existing commits
+- git branch git-notes
+- git checkout  <branch>  (check out a branch)
+      git co (for short)
+        http://git-scm.com/docs/git-checkout
+
+
+git-notes
+      Can be wired up to other issue tracker, but comes with basic tracker
+      Circles are commits
+      Squares are the bucket
+      Head:    lable - allways poits to most recent commit
+      Master:  label given to vary first branch
+      Branch:  lable that points to a specific place in time
+      New commit - head and master point to most recent commit
+      Links to learm more:
+        http://git-scm.com/docs/git-checkout
+
