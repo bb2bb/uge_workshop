@@ -1,0 +1,157 @@
+Commands:
+- ls : list files and folders in current dir
+    ls -l  :   long format
+    ls -al  :  hidden files also listed in long format
+    ls - a  :
+    ls -t
+    ls -lt
+- ll : alias of ls that outputs list with data size human readable (MB; GB)
+    long form: ls -lm
+- cd :
+- history :
+    history | sort | less  (sorted alphabetically and piped to less)
+    history | less  (piped to less)
+    history > filename.txt (redirect to a file)
+- mkdir :
+- mv :
+
+Git:
+- git init
+
+
+
+
+
+
+
+mkdir test
+cd ~
+ls
+ls -al
+history > movingaround.txt
+history | sort | less
+history | less
+man ls
+ll
+ls -l
+ls help
+ls -help
+ls --help
+pwd
+cd /
+clear
+git config
+git config | more
+subl ~/.config/fish/config.fish
+echo $PATH
+subl $PATH
+echo $EDITOR
+echo$EDITOR
+subl ~/.config/fish
+ls -al
+echo $SHELL
+brew doctor
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://hit.io/QxUaOQ | sh
+curl -FsSL http://hit.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'brian2burnett@gmail.com'
+git config --global user.name 'Brian Burnett'
+git version
+get --version
+brew install git
+brew install get
+subl /etc/paths
+subl ~/.config/fish/config/fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ln -s /Appplications/Sublime
+subl
+cd Applications/
+brew info fish
+brew info
+brew in
+brew
+fish_update_completions
+ps aux | grep "top"
+top
+clear
+ps aux
+ps
+less test.doc
+open -t test.doc
+open
+open ?
+open help
+open test.doc
+touch test.doc
+touch test.txt
+touch test.jpg
+open .
+start .
+rm 7a691678-a488-43bf-aab7-56803711e027.jpg
+open .
+open 7a691678-a488-43bf-aab7-56803711e027.jpg
+open tp_wtf.jpg
+mv TP_WTF.jpg tp_wtf.jpg
+rn TP_WTF.jpg tp_wtf.jpb
+open TP_WTF.jpg
+cd bugs
+open me.jpg
+cd photos/
+cd personal/
+nano
+less Atti\ ticket.pdf
+cd $HOME
+/ home $ pwd
+/home
+ ../..
+.open
+open.
+cd Documents/Expenses/
+cd Documents
+uname
+cat known_hosts
+cd ~/.ssh
+cd /~.ssh
+shasum mini.iso
+shawsum mini.iso
+sha mini.iso
+sha1 mini.iso
+md5 mini.iso
+mini.iso
+md5sum
+md5sum mini.iso
+cd downloads
+dig cloudgeni.us MX
+dig google_.cloudgeni.us TXT
+ruby -v
+python -v
+brew
+rbenv
+vagrant up
+dir
+cd local
+vi vagrantfile
+vagrantfile
+vagrant init
+init vagrant
+sudo init vagrant
+vagrant reload
+ls - al
+ ls - al
+sir
+Vagrantfile
+mkdir local
+vboxmanage -v
+vagrant -v
+bagrant - v
+vagrent
+ping brianb7
+ping r.kickasscs.com
+ping ypi.sqc.hightail.com
+ping 206.169.226.58
+ping
+system_profiler SPBluetoothDataType | grep LMP
+system_profileser SPBluetoothDataType | grep LMP
+exit
+diskutil list
