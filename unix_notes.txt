@@ -17,6 +17,33 @@ Commands:
 
 Git:
 - git init
+    don't do this in home folder
+    used to initialize git
+- git status : used to track what is in the box
+    initially shows untracked files
+      git st (short for status)
+- git add filename  :  add a file to get
+    check status again (git status) - status will show new files in the box
+      not perm until comited
+- get commit -m 'add git notes'
+    Contained in the commit:
+      message (note about the commit)
+      id number
+      date and time
+      dif (changes in the file for this change)
+      author:  user name and email
+   x reg x when staging area is full or changes
+   greee check when staging area is empty
+      NOte:  good to use add vs added or adding in notes (present tense)
+- get log
+      git ll (short version)
+      git la (long version)
+      git ls -la ???
+
+- files in staging:
+      blue for new
+      green for commited
+      yellow for modified
 
 
 
@@ -24,19 +51,12 @@ Git:
 
 
 
-mkdir test
-cd ~
-ls
-ls -al
-history > movingaround.txt
-history | sort | less
-history | less
-man ls
-ll
-ls -l
-ls help
-ls -help
-ls --help
+
+
+- man:  manual for commands
+      man ls
+      use q to quit
+
 pwd
 cd /
 clear
