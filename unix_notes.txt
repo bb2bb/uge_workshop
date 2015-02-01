@@ -14,8 +14,7 @@ Commands:
     history > filename.txt (redirect to a file)
 - mkdir :
 - mv :
-- pwd
-- touch :  create a new file or update timestamp on file
+
 
 
 
@@ -30,7 +29,6 @@ Git:
     check status again (git status) - status will show new files in the box
       not perm until comited
 - get commit -m 'add git notes'
-      git ci  (short for commit)
     Contained in the commit:
       message (note about the commit)
       id number
@@ -40,53 +38,27 @@ Git:
    x reg x when staging area is full or changes
    greee check when staging area is empty
       NOte:  good to use add vs added or adding in notes (present tense)
-- git log
+- get log
       git ll (short version)
       git la (long version)
-      git ls -la ??
-- git notes
-- git branch git-notes
-- git checkout git-notes
-
-
-- notes for git:
-      Can be wired up to other issue tracker, but comes with basic tracker
-      Circles are commits
-      Squares are the bucket
-      Head:    lable - allways poits to most recent commit
-      Master:  label given to vary first branch
-      Branch:  lable that points to a specific place in time
-        New commit - head and master point to most recent commit
-
+      git ls -la ???
 
 - files in staging:
       blue for new
-      green in staging area
+      green for commited
       yellow for modified
 
-- update example:
-      git ci -m 'update'
 
-- git workflow
-    initialize, then:
-    add file to staging area
-    commit file changes
-    lather, rinse and repeat
 
-- git blame:
-      shows who did what
+
+
+
 
 
 
 - man:  manual for commands
       man ls
       use q to quit
-
-
-
-
-Home Brew:
-- brew doctor
 
 pwd
 cd /
