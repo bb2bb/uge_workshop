@@ -28,9 +28,41 @@ Git:
 - git checkout  <branch>  (check out a branch)
       git co (for short)
         http://git-scm.com/docs/git-checkout
+- github : remote reposatory
 
 
-git-notes
+
+
+Create a repo in git hub {workflow}:
+- don't initialize, if allready initialized locally (we did this allready)
+  - git remote -v
+  - git remote add origin https://github.com/bb2bb/uge_workshop.git
+  - git co master (to add master too)
+  - git push -u origin master  (-u for tracking branch)
+  - git co :to swich back to git-notes branch
+  - git push -u origin git-notes (add get-notes branch)
+
+
+git remote add origin
+- Pull requst:  Github thing.
+      Lets manager of project know that owrk is ready to be raeviewed
+    - create pull
+    - new pull request
+    - base master - git notes to do a pull requst
+    - click create request
+    - add notes
+    - create pull
+    - merge branches
+
+
+Merge:
+-  merge
+-  add
+-  commit
+-  push to github
+
+git side notes
+      solo progject get merge, team progjects pull request
       Can be wired up to other issue tracker, but comes with basic tracker
       Circles are commits
       Squares are the bucket
